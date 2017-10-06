@@ -19,5 +19,3 @@ if exists("syntax_on")
 endif
 
 let colors_name = "default"
-
-" vim: sw=2
