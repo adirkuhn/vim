@@ -43,9 +43,9 @@ set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 " UNCOMMENT TO USE
 set tabstop=2                    " Global tab width.
 set shiftwidth=2                 " And again, related.
-"set expandtab                    " Use spaces instead of tabs
+"set expandtab                   " Use spaces instead of tabs
 
-set laststatus=2                  " Show the status line all the time
+set laststatus=2                 " Show the status line all the time
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
